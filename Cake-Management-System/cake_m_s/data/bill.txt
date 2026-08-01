@@ -1,0 +1,9 @@
+------ Cake Bill ------
+Date: 06-07-2026 18:50
+Cake ID: 3
+Cake Name: black forest cake
+Quantity: 3
+Price (each): Rs500
+Total: Rs1500
+------------------------
+Thank you! Visit Again!

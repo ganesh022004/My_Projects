@@ -1,0 +1,7 @@
+1,chocolate cake,200,6
+2,vanillna cake,400,9
+3,black forest cake,500,4
+4,red velvet cake,300,9
+5,butterscotch cake,400,7
+6,mango cake,100,9
+7,coffee cake,200,2

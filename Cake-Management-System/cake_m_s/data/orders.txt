@@ -1,0 +1,18 @@
+ganesh,choclate cake,1,200
+ramesh,vanilla cake,4,1200
+ganesh,black forest cake,1,400
+ganesh,stawberry cake ,1,200
+ganesh,stawberry cake ,1,200
+ganesh,chocolate cake,1,200
+ganesh,stawberry cake ,1,200
+ganesh,chocolate cake,1,200
+balaji,black forest cake,1,500
+ramesh,vanillna cake,1,400
+ramesh,chocolate cake,1,200
+balaji,coffee cake,1,200
+balaji,mango cake,1,100
+ganesh,coffee cake,1,200
+ganesh,chocolate cake,1,200
+ganesh,coffee cake,1,200
+nayan,butterscotch cake,2,800
+ganesh,black forest cake,3,1500
