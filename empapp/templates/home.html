@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> this our home page </h2>
+    <p> welcome :- {{ username }} </p>
+    <h2> the count of emp is {{ emp_count }}</h2>
+    <h2> the letest emp name is and the count of only it dept is {{ latest }} </h2>
+    <h2> the max salary is {{ salary }} </h2>
+    <table border="1">
+        <tr>
+            <th> ABOUT PAGE </th>
+            <th> HOME PAGE </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="{% url 'about_page' %}">
+                    About Page 
+                </a>
+            </td>
+             <td>
+                <a href="{% url 'employee_list' %}">
+                    Employee_data
+                </a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

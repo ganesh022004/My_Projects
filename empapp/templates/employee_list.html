@@ -1,0 +1,69 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+</head>
+<body>
+
+    <h2>Employee Management System</h2>
+
+    <a href="{% url 'employee_create' %}">
+        Add Employee
+    </a>
+    
+
+
+    &nbsp;&nbsp;
+
+    <a href="{% url 'logout' %}">
+        Logout
+    </a>
+    <h2> Welcome to Employee Management System </h2>
+
+    <br><br>
+    <a href="{% url 'about_page' %}">
+       about page
+    </a>
+    <h2> Welcome to Employee Management System </h2>
+
+    <table border="1" cellpadding="10">
+
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>Action</th>
+        </tr>
+
+        {% for emp in employees %}
+
+        <tr>
+            <td>{{ emp.name }}</td>
+            <td>{{ emp.dept }}</td>
+            <td>{{ emp.age }}</td>
+            <td>{{ emp.email }}</td>
+            <td>{{ emp.salary }}</td>
+
+            <td>
+                <a href="{% url 'employee_update' emp.id %}">
+                    Edit
+                </a>
+
+                &nbsp;
+
+                <a href="{% url 'delete_emp' emp.id %}">
+                    Delete
+                </a>
+            </td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>
+```
